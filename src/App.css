@@ -1,0 +1,102 @@
+.App {
+
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+body{
+	background: "./bg.png";
+	height: 100%;
+}
+
+.Menu {
+  width: 1000px;
+  height: 500px;
+  border-radius: 10px;
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  display: flex;
+  flex-direction: column;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  justify-content: center;
+  align-items: center;
+}
+
+.Menu input, button {
+  width: 300px;
+  height: 50px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+
+
+
+}
+
+
+.Menu button{
+	background:rgb(255, 175, 1);
+}
+
+button:hover {
+  cursor: pointer;
+
+
+
+}
+
+button:focus {
+	background-color: aqua;
+}
+
+button {
+	border: 1px solid rgb(182, 179, 179);
+	background:rgb(255, 238, 1);
+}
+
+.Test {
+  width: 1000px;
+  height: 500px;
+  border-radius: 10px;
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.Menu, .Test, .EndScreen h1 {
+  color: white;
+}
+
+.EndScreen {
+  width:1000px;
+  height: 500px;
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#nextQuestion {
+  width: 200px;
+}
+
+h3 {
+  color: #ffffff;
+
+}
+
+.Test button{
+	width: 700px;
+}
