@@ -17,8 +17,8 @@ body{
 .Menu {
   width: 1000px;
   height: 500px;
-  border-radius: 10px;
-  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  border-radius: 40px;
+  background: radial-gradient(circle, rgb(238, 220, 228) 0%, rgb(167, 186, 209) 100%);
   display: flex;
   flex-direction: column;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
@@ -31,7 +31,7 @@ body{
   height: 50px;
   margin: 5px;
   border: none;
-  border-radius: 5px;
+  border-radius: 20px;
   font-size: 20px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
@@ -42,7 +42,7 @@ body{
 
 
 .Menu button{
-	background:rgb(255, 175, 1);
+	background:rgb(248, 247, 244);
 }
 
 button:hover {
@@ -53,19 +53,19 @@ button:hover {
 }
 
 button:focus {
-	background-color: aqua;
+	background-color: rgb(124, 204, 204);
 }
 
 button {
-	border: 1px solid rgb(182, 179, 179);
-	background:rgb(255, 238, 1);
+
+	background:rgb(250, 250, 248);
 }
 
 .Test {
   width: 1000px;
   height: 500px;
-  border-radius: 10px;
-  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  border-radius: 20px;
+  background:  radial-gradient(circle, rgb(238, 220, 228) 0%, rgb(181, 193, 207) 100%);;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -81,7 +81,7 @@ button {
 .EndScreen {
   width:1000px;
   height: 500px;
-  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  background:  radial-gradient(circle, rgb(238, 220, 228) 0%, rgb(167, 186, 209) 100%);
   display: flex;
   flex-direction: column;
   justify-content: center;
