@@ -13,15 +13,19 @@ const EndScreen = () => {
     setScore(0);
     setGameState("menu");
   };
+
+  
+
+
   return (
     <div className="EndScreen">
       <h1>Test Finished</h1>
 <h2>Dear {userName}</h2>
-{score >= 2 ? (
-<h1>Introvert</h1>
-) : (
-<h1>Extrovert</h1>
-)}
+
+<h2>You are an { 
+score >= 2  ? (<h1>Introvert</h1>): 
+
+(<h1>Extrovert</h1>)}</h2>
 
       <button onClick={restartTest}>Restart Test</button>
     </div>
