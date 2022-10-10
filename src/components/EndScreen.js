@@ -17,7 +17,7 @@ const EndScreen = () => {
     <div className="EndScreen">
       <h1>Test Finished</h1>
 <h2>Dear {userName}</h2>
-{{score} >= 2 ? (
+{score >= 2 ? (
 <h1>Introvert</h1>
 ) : (
 <h1>Extrovert</h1>
