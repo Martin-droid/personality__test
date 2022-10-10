@@ -71,7 +71,7 @@ function Test() {
         </button>
       ) : (
         <button onClick={nextQuestion} id="nextQuestion">
-          Next Question
+          Next Question 
         </button>
       )}
     </div>
