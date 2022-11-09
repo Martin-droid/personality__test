@@ -6,7 +6,7 @@ Used Best Code Practices to Make it as simple and light as could be.
 
 Cheers!
 
-https://github.com/Martin-droid/personality__test/blob/main/test1.png?raw=true
+https://github.com/Martin-droid/personality__test/blob/main/test1.png?
 
 <br>
 
