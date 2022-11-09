@@ -10,18 +10,18 @@
 }
 
 body{
-	background: "./bg.png";
+ background-color: #F2DEBA;
 	height: 100%;
 }
 
 .Menu {
   width: 1000px;
-  height: 500px;
+  height: 300px;
   border-radius: 40px;
-  background: radial-gradient(circle, rgb(238, 220, 228) 0%, rgb(167, 186, 209) 100%);
+  
   display: flex;
   flex-direction: column;
-  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  
   justify-content: center;
   align-items: center;
 }
@@ -31,6 +31,7 @@ body{
   height: 50px;
   margin: 5px;
   border: none;
+
   border-radius: 20px;
   font-size: 20px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -49,11 +50,10 @@ button:hover {
   cursor: pointer;
 
 
-
 }
 
 button:focus {
-	background-color: rgb(124, 204, 204);
+	background-color:#3A8891;
 }
 
 button {
@@ -61,11 +61,18 @@ button {
 	background:rgb(250, 250, 248);
 }
 
+.App img{
+
+  height:130px;
+  width: 130px;
+padding-bottom: 20px;
+
+}
 .Test {
   width: 1000px;
   height: 500px;
   border-radius: 20px;
-  background:  radial-gradient(circle, rgb(238, 220, 228) 0%, rgb(181, 193, 207) 100%);;
+  
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -74,14 +81,18 @@ button {
 
 }
 
-.Menu, .Test, .EndScreen h1 {
-  color: white;
+.Menu, .Test, .EndScreen h1{
+
+  font-size: 11px;
+}
+
+.Test h1{
+  color:rgb(78, 76, 76);
 }
 
 .EndScreen {
   width:1000px;
   height: 500px;
-  background:  radial-gradient(circle, rgb(238, 220, 228) 0%, rgb(167, 186, 209) 100%);
   display: flex;
   flex-direction: column;
   justify-content: center;

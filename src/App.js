@@ -14,6 +14,9 @@ function App() {
   return (
     <div className="App">
       <h1>Personality Test</h1>
+      <div>
+      
+      </div>
       <GameStateContext.Provider
         value={{
           gameState,

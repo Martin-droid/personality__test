@@ -13,12 +13,9 @@ const EndScreen = () => {
     setScore(0);
     setGameState("menu");
   };
-
-  
-
-
   return (
     <div className="EndScreen">
+         <img src="../profile.png" ></img>
       <h1>Test Finished</h1>
 <h2>Dear {userName}</h2>
 
