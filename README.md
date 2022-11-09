@@ -1,7 +1,9 @@
 # Simple Test App - React Js Hooks | Context API | Unit Tests
 
 # Deployed App - https://personality-test-umber.vercel.app/
-Built completely with ReactJS using Hooks and the Context API.
+
+- Built completely with ReactJS using Hooks and the Context API.
+- A Simple Unit Test has been employed to check if the 3 Pages are Rendering.
 
 Used Best Code Practices to Make it as simple and light as could be.
 
