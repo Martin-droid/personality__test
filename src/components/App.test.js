@@ -11,10 +11,10 @@ test('renders the Menu page', () => {
   render(<Menu />);
 });
 
-test('renders the Menu page', () => {
+test('renders the Test page', () => {
   render(<Test />);
 });
 
-test('renders the Menu page', () => {
+test('renders the End page', () => {
   render(<EndScreen />);
 });

@@ -8,6 +8,7 @@ function Menu() {
   );
   return (
     <div className="Menu">
+      <img src="../profile.png"></img>
       <label>Enter Your Name:</label>
       <input
         type="text" name="input"
