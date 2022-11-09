@@ -1,4 +1,4 @@
-# Test App - React Js Hooks | Context API | Unit Tests | Arrays
+# Simple Test App - React Js Hooks | Context API | Unit Tests
 
 # Deployed App - https://personality-test-umber.vercel.app/
 Built completely with ReactJS using Hooks and the Context API.
