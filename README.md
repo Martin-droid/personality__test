@@ -2,8 +2,8 @@
 
 # Deployed - https://personality-test-umber.vercel.app/
 
-- Built completely with ReactJS using Hooks and the Context API.
-- A <b>Simple Unit Test has been employed to check if the 3 States are Rendering.</b>
+<b>- Built completely with ReactJS using Hooks and the Context API.</b>
+<b>- A Simple Unit Test has been employed to check if the 3 States are Rendering.</b>
 
 Used Best Code Practices to Make it as simple and light as could be.
 
