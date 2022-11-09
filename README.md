@@ -16,6 +16,6 @@ Cheers!
 <br>
 
 <br>
-<img src="https://github.com/Martin-droid/personality__test/blob/main/test.png" width="100%" title="hover text">
+<img src="https://github.com/Martin-droid/personality__test/blob/main/test3.png" width="100%" title="hover text">
 
 <br>
