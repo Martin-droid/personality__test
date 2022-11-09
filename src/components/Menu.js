@@ -10,7 +10,7 @@ function Menu() {
     <div className="Menu">
       <label>Enter Your Name:</label>
       <input
-        type="text"
+        type="text" name="input"
         placeholder="Ex. John Smith"
         onChange={(event) => {
           setUserName(event.target.value);
@@ -20,7 +20,7 @@ function Menu() {
         onClick={() => {
           setGameState("playing");
         }}
-      >
+      name="Submit">
         Start Test
       </button>
     </div>
